@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "DhamiAPImain",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/doctors": {
+      "get": {
+        "tags": [
+          "DhamiAPImain"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
