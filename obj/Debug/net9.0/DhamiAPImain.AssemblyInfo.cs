@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DhamiAPImain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb8d81d031c00202638e471e22a17b01858ea33b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DhamiAPImain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DhamiAPImain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
