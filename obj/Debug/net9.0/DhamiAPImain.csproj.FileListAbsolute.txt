@@ -34,3 +34,4 @@ C:\Users\hp\source\repos\DhamiAPImain\DhamiAPImain\obj\Debug\net9.0\refint\Dhami
 C:\Users\hp\source\repos\DhamiAPImain\DhamiAPImain\obj\Debug\net9.0\DhamiAPImain.pdb
 C:\Users\hp\source\repos\DhamiAPImain\DhamiAPImain\obj\Debug\net9.0\DhamiAPImain.genruntimeconfig.cache
 C:\Users\hp\source\repos\DhamiAPImain\DhamiAPImain\obj\Debug\net9.0\ref\DhamiAPImain.dll
+C:\Users\hp\source\repos\DhamiAPImain\DhamiAPImain\obj\Debug\net9.0\DhamiAPImain.sourcelink.json

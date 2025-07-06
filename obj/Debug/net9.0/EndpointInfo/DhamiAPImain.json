@@ -16,6 +16,18 @@
           }
         }
       }
+    },
+    "/api/ping": {
+      "get": {
+        "tags": [
+          "DhamiAPImain"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }
