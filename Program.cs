@@ -39,9 +39,9 @@ app.MapGet("/api/doctors", async (IConfiguration cfg, ILogger<Program> log) =>
         await con.OpenAsync();
 
         const string sql = @"
-            SELECT id,name,specialty,slot,rating,photo,degree,experience,reviews,
-                   availability,patients_treated,hours_per_week,surgeries
-            FROM doctors;
+                    SELECT id,name,specialty,slot,rating,photo,degree,experience,reviews,
+                    availability,patients_treated,hours_per_week,surgeries,phone
+                    FROM doctors;
         ";
 
         await using var cmd = new MySqlCommand(sql, con);
@@ -55,10 +55,15 @@ app.MapGet("/api/doctors", async (IConfiguration cfg, ILogger<Program> log) =>
                 rd.GetString(2),
                 rd.GetString(3),
                 rd.GetDecimal(4).ToString("0.0"),
-                rd.GetString(5), rd.GetString(6),
-                rd.GetString(7), rd.GetInt32(8).ToString(),
-                rd.GetString(9), rd.GetString(10),
-                rd.GetString(11), rd.GetString(12)
+                rd.GetString(5),
+                rd.GetString(6),
+                rd.GetString(7),
+                rd.GetInt32(8).ToString(),
+                rd.GetString(9),
+                rd.GetString(10),
+                rd.GetString(11),
+                rd.GetString(12),
+                rd.GetString(13)
             ));
         }
 
@@ -84,4 +89,4 @@ app.Run();
 record DoctorDto(int Id, string Name, string Specialty, string Slot,
                  string Rating, string Photo, string Degree, string Experience,
                  string Reviews, string Availability, string PatientsTreated,
-                 string HoursPerWeek, string Surgeries);
+                 string HoursPerWeek, string Surgeries, string Phone);
